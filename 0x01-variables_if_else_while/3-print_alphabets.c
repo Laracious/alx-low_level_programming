@@ -7,9 +7,10 @@
  *
  * Description: print alphabet in lowercase and uppercase
  *
- * Return: Always 0
+ * Return: 0
+ *
  */
-int mind(void)
+int main(void)
 {
 	char ch;
 
