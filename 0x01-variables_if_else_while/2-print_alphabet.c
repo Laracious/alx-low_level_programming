@@ -1,18 +1,19 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - prints alphabet in lower case
- * Return: Always 0
+ * main - print alphabet in lowercase
+ * Return: 0
  */
 int main(void)
 {
-	int lc;
+	char lj;
 
-	for (lc = 'a'; ch <= 'z'; lc++)
+	for (lj = 'a'; lj <= 'z'; lj++)
 	{
-		putchar (lc);
+		putchar(lj);
 	}
-		putchar('\n');
+	putchar('\n');
 	return (0);
 }
-
