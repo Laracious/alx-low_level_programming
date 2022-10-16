@@ -1,8 +1,12 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
+ *
  * Description: print alphabet in lowercase and uppercase
+ *
  * Return: Always 0
  */
 int mind(void)

@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: print the alphabet in lowercase, followed by a new line
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
-	int ch;
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
