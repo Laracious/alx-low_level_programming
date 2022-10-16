@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <stdio.h>
+#include <unistd.h>
+
 /**
  * main - Entry point
  * Description: print the alphabet in lowercase, followed by a new line
@@ -14,7 +14,10 @@ int main(void)
 	{
 		if (ch != 'e' && ch != 'q')
 		putchar(ch);
-}
-	putchar('n\');
+	}
+	else
+	{
+	}
+	putchar('\n');
 	return (0);
-
+}
