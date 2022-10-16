@@ -7,6 +7,7 @@
  * Description: prints all possible combinations of single-digit numbers
  *
  * Return: 0
+ *
  */
 int main(void)
 {
@@ -19,7 +20,6 @@ int main(void)
 		if (n != 9)
 		{
 			putchar(',');
-			putchar('');
 		}
 	}
 	putchar ('\n');
