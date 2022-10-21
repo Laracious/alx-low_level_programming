@@ -3,8 +3,9 @@
 /**
  * print_triangle - prints a triangle
  * @n: size of the triangle
+ * Return: 0
  */
-void print_triangle(int size)
+void print_triangle(int n)
 {
 	int h, tri;
 
