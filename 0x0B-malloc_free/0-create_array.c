@@ -3,33 +3,28 @@
 #include <stdlib.h>
 
 /**
- * create_array - arrayto print a string
- * @size: number elements array
- * @c: char
- * Return: pointer
+ * create_array - creates an array of chars, and initializes it with a char
+ * @size: size of the array
+ * @c: char to initialize
+ * Return: char *
  */
 
 char *create_array(unsigned int size, char c)
 {
-	char *buffer;
-	unsigned int position;
+	unsigned int i;
+	char *array;
 
 	if (size == 0)
 		return (NULL);
+	array = malloc(size * sizeof(char));
 
-	/*Define value with malloc*/
-	buffer = (char *) malloc(size * sizeof(c));
-
-	if (buffer == 0)
-		return (NULL);
-
-	else
+	if (array == NULL)
 	{
-	position = 0;
-	while (position < size) /*while for array*/
-	*(buffer + position) = c;
-	position++;
+		return (NULL);
 	}
-
-	return (buffer);
+	for (i = 0; i < size; i++)
+	{
+		array[i] = c;
+	}
+	return (array);
 }
