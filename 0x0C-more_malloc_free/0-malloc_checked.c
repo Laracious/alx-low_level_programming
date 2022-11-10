@@ -17,7 +17,3 @@ void *malloc_checked(unsigned int b)
 
 	return (ptr);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
