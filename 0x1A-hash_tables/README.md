@@ -91,3 +91,11 @@ Write a function that deletes a hash table.
 
 * Prototype: void hash_table_delete(hash_table_t *ht);
 	* where ht is the hash table
+
+###  $ht['Betty'] = 'Cool'
+For this task, please:
+
+* Read PHP Internals Book: HashTable
+* Use the same hash function
+* Use these data structures:
+
